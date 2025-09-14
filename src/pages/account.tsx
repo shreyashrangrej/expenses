@@ -119,24 +119,24 @@ const AccountPage: NextPageWithUser<{ isCloud: boolean; feedBackPossible: boolea
             </AccountButton>
           )}
 
-          <AccountButton href="https://github.com/oss-apps/split-pro">
+          {/* <AccountButton href="https://github.com/oss-apps/split-pro">
             <SiGithub className="size-5" />
             {t('ui.star_on_github')}
-          </AccountButton>
+          </AccountButton> */}
 
-          <AccountButton href="https://github.com/sponsors/krokosik">
+          {/* <AccountButton href="https://github.com/sponsors/krokosik">
             <HeartHandshakeIcon className="size-5 text-pink-600" />
             {t('ui.support_us')}
-          </AccountButton>
+          </AccountButton> */}
 
           {feedBackPossible && <SubmitFeedback />}
 
           <SubscribeNotification />
 
-          <AccountButton href="https://www.producthunt.com/products/splitpro/reviews/new">
+          {/* <AccountButton href="https://www.producthunt.com/products/splitpro/reviews/new">
             <Star className="size-5 text-yellow-400" />
             {t('ui.write_review')}
-          </AccountButton>
+          </AccountButton> */}
 
           <DownloadAppDrawer>
             <AccountButton>
