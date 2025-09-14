@@ -268,7 +268,7 @@ export const AddOrEditExpensePage: React.FC<{
               </>
             ) : null}
           </div>
-          <SponsorUs />
+          {/* <SponsorUs /> */}
         </>
       )}
     </div>
